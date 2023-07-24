@@ -1,0 +1,6 @@
+Create a fresh Laravel Latest version project.
+Create APİ to save name (string, max 50), description (string, max 250), file (image, size max 5mb), type (should be 1, 2 or 3) inputs in mysql DB. Before saving, validate the whole data and save the image file in a private folder in storage. This api should return only name, type and description after saving data.
+Create an API to list the whole records only with name, type and description being returned. Data should paginate by 10 at a time.
+Create an API to show a single record with name, type, description and temporary url of image.
+Create a cron job to delete 30 days old records each hour. Writing clean codes and using Laravel functionalities will be a plus.
+Create a public github repository and push your whole code
